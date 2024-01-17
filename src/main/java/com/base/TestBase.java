@@ -22,6 +22,7 @@ public class TestBase {
 	FileInputStream file;
 	public static WebDriver driver;
 	protected ExtentReports extentreports;
+	@SuppressWarnings("deprecation")
 	public static EventFiringWebDriver e_driver;
 	public static EventListeners listenerss;
 
@@ -47,6 +48,7 @@ public class TestBase {
 
 	}
 
+	@SuppressWarnings("deprecation")
 	public void initialization() {
 
 		String browsername = prop.getProperty("browser");

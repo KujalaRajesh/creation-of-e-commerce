@@ -1,7 +1,5 @@
 package com.pom;
 
-import java.sql.Driver;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -37,7 +35,7 @@ public class SignUpFunctionality extends TestBase {
 	
 	
 	public SignUpFunctionality() {
-		WebDriver driver = null;
+//		WebDriver driver = null;
 		PageFactory.initElements(driver, this);
 		
 	}
